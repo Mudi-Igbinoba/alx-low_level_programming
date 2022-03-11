@@ -9,19 +9,12 @@ int main(void)
 {
 			char alph;
 
-			for (alph = 'a'; alph <= 'd'; alph++)
+			for (alph = 'a'; alph <= 'z'; alph++)
 			{
-				putchar(alph);
-			}
-
-			for (alph = 'f'; alph <= 'p'; alph++)
-			{
-				putchar(alph);
-			}
-
-			for (alph = 'r'; alph <= 'z'; alph++)
-			{
-				putchar(alph);
+				if (alph != 'e' && alph != 'q')
+				{
+					putchar(alph);
+				}
 			}
 
 			putchar('\n');
